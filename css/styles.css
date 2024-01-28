@@ -1,0 +1,395 @@
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFF;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+/*==========HEADER============*/
+
+.header {
+    border-bottom: 1px solid #E7E9FC;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    background: #FFF;
+    display: flex;
+    align-items: center;
+}
+
+.logo-web {
+    color: #4D5AE5;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    padding-top: 25.5px;
+    padding-bottom: 25.5px;
+    display: flex;
+    align-items: center;
+    margin-right: 76px
+}
+
+.logo-studio {
+    color: #2E2F42;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    padding-top: 25.5px;
+    padding-bottom: 25.5px;
+    display: flex;
+    align-items: center;
+    margin-right: 76px;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.header-nav-list {
+    display: flex;
+    gap: 40px;
+}
+
+.header-nav-menu {
+    color: #2E2F42;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+    display: block;
+}
+
+.header-nav-menu:hover,
+.header-nav-menu:focus {
+    color: #404BBF;
+}
+
+/*==============================*/
+/*=========CONTACTS=============*/
+
+address {
+    font-style: normal;
+    margin-left: auto;
+}
+
+.contacts {
+    color: #434455;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+}
+
+.contacts-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.link-contacts:hover,
+.link-contacts:focus {
+    color: #404BBF;
+}
+
+.link-contacts {
+    color: #434455;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+/*======================*/
+/*=========HERO=========*/
+
+.container-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero {
+    background: #2E2F42;
+    padding: 188px 0 188px;
+}
+
+.hero-title {
+    color: #FFF;
+    text-align: center;
+    font-family: inherit;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    max-width: 496px;
+    margin-bottom: 48px;
+}
+
+.hero-btn {
+    color: #FFF;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.50;
+    letter-spacing: 0.04em;
+    background: #4D5AE5;
+    cursor: pointer;
+    padding: 16px 32px;
+    border-radius: 4px;
+    margin-top: 48px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    min-width: 169px;
+    height: 56px;
+    border: none;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #404BBF;
+}
+
+
+/*======================*/
+/*=========FEATURE=========*/
+.container-feature {
+    display: flex;
+    align-items: center;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.main-section-feature {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.title-medium {
+    color: #2E2F42;
+    text-align: center;
+    font-family: inherit;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.feature-list {
+    display: flex;
+    gap: 24px;
+}
+
+.feature-item {
+    width: calc((100% - 72px) / 4);
+}
+
+.title-small {
+    color: #2E2F42;
+    font-size: 20px;
+    line-height: 1.20;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+}
+
+.text {
+    color: #434455;
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+}
+
+/*======================*/
+/*=========TEAM=============*/
+.section-team {
+    background: #F4F4FD;
+    padding: 120px 0 120px;
+}
+
+.title-team {
+    padding-top: 120px;
+    margin-bottom: 72px;
+}
+
+.team-list {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.team-item {
+    border-radius: 0px 0px 4px 4px;
+}
+
+.title-corwokers {
+    margin-top: 32px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.team-name-text {
+    padding: 32px 0 32px;
+}
+
+.team-text {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.background-team {
+    background: #FFF;
+    border-top: 72px;
+    border-bottom: 120px;
+
+}
+
+/*======================*/
+/*==========PORTFOLIO============*/
+.porfolio {
+    padding: 120px 0 120px 0;
+}
+
+.background-portfolio {
+    background: #FFF;
+}
+
+.title-portfolio {
+    padding-top: 120px;
+    margin-bottom: 72px;
+}
+
+.porfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px 24px;
+    row-gap: 48px;
+}
+
+.porfolio-name-text {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.porfolio-pictures {
+    margin-bottom: 32px;
+}
+
+.card-content {
+    padding: 0 16px;
+    margin-bottom: 8px;
+}
+
+.porfolio-text {
+    margin-bottom: 8px;
+    padding-bottom: 32px;
+}
+
+/*======================*/
+/*==========FUTER============*/
+
+footer {
+    background: #2E2F42;
+    padding: 100px 0 100px;
+}
+
+.text-footer {
+    color: #F4F4FD;
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    width: 264px;
+    margin-top: 16px;
+    padding-bottom: 100px;
+}
+
+.logo-web-footer {
+    color: #4D5AE5;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    padding-top: 101.5px;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.logo-studio-footer {
+    color: #F4F4FD;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+/*======================*/
