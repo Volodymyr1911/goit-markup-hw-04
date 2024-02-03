@@ -465,14 +465,18 @@ address {
 /*======================*/
 /*==========FUTER============*/
 
-footer {
+.footer {
     background: #2E2F42;
-    padding: 100px 0 100px;
+    padding: 100px 0;
 }
 
 .footer-container {
     display: flex;
-    align-items: center;
+}
+
+.container-logo-footer {
+    /* display: flex; */
+    margin-right: 120px;
 }
 
 .text-footer {
@@ -484,11 +488,16 @@ footer {
     width: 264px;
     margin-top: 16px;
     padding-bottom: 100px;
+    margin-right: 0;
+    align-items: flex-start;
 }
 
-.container-logo-footer {
-    padding: 100, 269, 0;
-    margin-bottom: 17.5px;
+.footer-title-icon {
+    /* display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    border-top: 100px; */
+
 }
 
 .logo-web-footer {
@@ -516,59 +525,55 @@ footer {
     margin-bottom: 16px;
 }
 
-.footer-text-title {
-    display: flex;
-    padding-bottom: 100px;
-    padding-left: 0;
-
-}
-
 .footer-icon-container {
-    display: flex;
+
+    /* position: absolute;
+    right: 540px;
+    top: 140px;
 }
 
-.futer-title {
-    color: #FFF;
-    font-family: inherit;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.50;
-    letter-spacing: 0.02em;
-    margin-left: 269px;
-}
+*/
+    .futer-title {
+        color: #FFF;
+        font-family: inherit;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.50;
+        letter-spacing: 0.02em;
+        margin-bottom: 16px;
+    }
 
-.icon-list {
-    display: flex;
-    justify-content: center;
-    gap: 16px;
-    align-items: baseline;
-}
+    .icon-list {
+        display: flex;
+        align-items: flex-start;
+        gap: 16px;
+    }
 
-.icon-item {
-    width: 40px;
-    height: 40px;
-}
+    .icon-item {
+        width: 40px;
+        height: 40px;
+    }
 
-.icon-link {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #4D5AE5;
-    border-radius: 50%;
-    transition: color 250ms;
-    transition: cubic-bezier(0.4, 0, 0.2, 1);
-}
+    .icon-link {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #4D5AE5;
+        border-radius: 50%;
+        transition: color 250ms;
+        transition: cubic-bezier(0.4, 0, 0.2, 1);
+    }
 
-.icon-image {
-    fill: transparent;
-    stroke: #FFF;
-}
+    .icon-image {
+        fill: transparent;
+        stroke: #FFF;
+    }
 
-.icon-link:hover {
-    background-color: #31D0AA;
-}
+    .icon-link:hover {
+        background-color: #31D0AA;
+    }
 
 
-/*======================*/
+    /*======================*/
